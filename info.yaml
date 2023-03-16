@@ -33,24 +33,24 @@ documentation:
 
 # A description of what the inputs do
   inputs:               
-    - clock
-    - reset
-    - none
-    - none
+    - bit_0_lsb
+    - bit_1
+    - bit_2
+    - bit_3_msb
     - none
     - none
     - none
     - none
 # A description of what the outputs do
   outputs:
-    - segment a
-    - segment b
-    - segment c
-    - segment d
-    - segment e
-    - segment f
-    - segment g
-    - dot
+    - bit_0_lsb
+    - bit_1
+    - bit_2
+    - bit_3_msb
+    - none
+    - none
+    - none
+    - none
 
 # The following fields are optional
   tag:          ""      # comma separated list of tags: test encryption, experiment, clock, animation, utility, industrial, pwm, fpga, alu, microprocessor, risc, riscv, sensor, signal generator, fft, filter, music, bcd, sound, serial, timer, random number generator, calculator, decoder, counter, puzzle, multiplier, game, oscillator,
